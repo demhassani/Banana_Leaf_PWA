@@ -1,0 +1,35 @@
+{
+  "name": "Banana Leaf",
+  "short_name": "Banana Leaf",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#107ABE",
+  "theme_color": "#3367D6",
+  "icons": [
+    {
+      "src": "img/icons/logo_76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "img/icons/logo_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "img/icons/logo_150.png",
+      "type": "image/png",
+      "sizes": "150x150"
+    },
+    {
+      "src": "img/icons/logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icons/logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
