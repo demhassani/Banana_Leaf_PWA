@@ -851,3 +851,31 @@ address {
 .panel p {
   padding: 5px 20px 30px;
 }
+
+.btn-banner{
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(68, 207, 253);
+  border-radius: 50%; 
+  box-shadow: 0px 9px 8px 0px #888888;
+  z-index: 5;
+}
+.btn-banner::after{
+    position: absolute;
+    content: '+';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-banner:hover{
+    background-color: rgb(81, 243, 243);
+}
+.btn-banner:active{
+    background-color: rgb(4, 99, 99);
+}
